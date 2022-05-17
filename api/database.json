@@ -1,0 +1,52 @@
+{
+    "penPals":[
+        {
+            "id":1,
+            "name": "Burt Crinkle",
+            "email": "bcrinkle@crinkle.crinkle"
+        },
+        {
+            "id":2,
+            "name": "Lurch Winkle",
+            "email": "lwinkle@winkle.winkle"
+        },
+        {
+            "id":3,
+            "name": "Spurt Tinkle",
+            "email": "stinkle@tinkle.tinkle"
+        },
+        {
+            "id":4,
+            "name": "Yurt Sminkle",
+            "email": "ysminkle@sminkle.sminkle"
+        },
+        {
+            "id":5,
+            "name": "Turt Sprinkle",
+            "email": "tsprinkle@sprinkle.sprinkle"
+        }
+    ],
+    "sentLetters":[],
+    "topics":[
+        {
+            "id": 1,
+            "name": "Business"
+        },
+        {
+            "id": 2,
+            "name": "Mud"
+        },
+        {
+            "id": 3,
+            "name": "Shrimp"
+        },
+        {
+            "id": 4,
+            "name": "Easter Sunday"
+        },
+        {
+            "id": 5,
+            "name": "Grooming Tips"
+        }
+    ]
+}
