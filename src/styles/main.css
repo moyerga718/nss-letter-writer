@@ -1,0 +1,95 @@
+
+* {
+    /*border: solid red 1px;*/
+    font-family: 'Koulen', cursive;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: solid black 2px;
+    box-shadow: 1em 1em black;
+    background: white;
+    padding: 0 2rem;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.form-section {
+    
+    padding: 0 2rem;
+    
+}
+
+.display-letter-section{
+    padding: 0 2rem;
+}
+
+.sentLetterDiv {
+    background: lightgray;
+    border: gray 1px solid;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.topic-div {
+    border: black 2px solid;
+    padding: 0  1rem;
+    margin-right: 1rem;
+    
+}
+
+.topic-section {
+    display: flex;
+}
+
+.topicsButtonsList {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sendLetter{
+    margin: 3rem 0;
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+#letterContentInput {
+    width: 100%;
+}

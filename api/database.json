@@ -1,52 +1,113 @@
 {
-    "penPals":[
-        {
-            "id":1,
-            "name": "Burt Crinkle",
-            "email": "bcrinkle@crinkle.crinkle"
-        },
-        {
-            "id":2,
-            "name": "Lurch Winkle",
-            "email": "lwinkle@winkle.winkle"
-        },
-        {
-            "id":3,
-            "name": "Spurt Tinkle",
-            "email": "stinkle@tinkle.tinkle"
-        },
-        {
-            "id":4,
-            "name": "Yurt Sminkle",
-            "email": "ysminkle@sminkle.sminkle"
-        },
-        {
-            "id":5,
-            "name": "Turt Sprinkle",
-            "email": "tsprinkle@sprinkle.sprinkle"
-        }
-    ],
-    "sentLetters":[],
-    "topics":[
-        {
-            "id": 1,
-            "name": "Business"
-        },
-        {
-            "id": 2,
-            "name": "Mud"
-        },
-        {
-            "id": 3,
-            "name": "Shrimp"
-        },
-        {
-            "id": 4,
-            "name": "Easter Sunday"
-        },
-        {
-            "id": 5,
-            "name": "Grooming Tips"
-        }
-    ]
+  "penPals": [
+    {
+      "id": 1,
+      "name": "Burt Crinkle",
+      "email": "bcrinkle@crinkle.crinkle"
+    },
+    {
+      "id": 2,
+      "name": "Lurch Winkle",
+      "email": "lwinkle@winkle.winkle"
+    },
+    {
+      "id": 3,
+      "name": "Spurt Tinkle",
+      "email": "stinkle@tinkle.tinkle"
+    },
+    {
+      "id": 4,
+      "name": "Yurt Sminkle",
+      "email": "ysminkle@sminkle.sminkle"
+    },
+    {
+      "id": 5,
+      "name": "Turt Sprinkle",
+      "email": "tsprinkle@sprinkle.sprinkle"
+    }
+  ],
+  "sentLetters": [
+    {
+      "authorId": 1,
+      "recipientId": 4,
+      "topicIds": [
+        1,
+        3,
+        4
+      ],
+      "letterContent": "test 1",
+      "dateSent": "Thu May 19 2022",
+      "id": 1
+    },
+    {
+      "authorId": 3,
+      "recipientId": 2,
+      "topicIds": [
+        1,
+        3,
+        4
+      ],
+      "letterContent": "test ",
+      "dateSent": "Thu May 19 2022",
+      "id": 2
+    },
+    {
+      "authorId": 3,
+      "recipientId": 4,
+      "topicIds": [
+        2,
+        5
+      ],
+      "letterContent": "test ",
+      "dateSent": "Thu May 19 2022",
+      "id": 3
+    },
+    {
+      "authorId": 4,
+      "recipientId": 1,
+      "topicIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "letterContent": "test ttttt",
+      "dateSent": "Thu May 19 2022",
+      "id": 4
+    },
+    {
+      "authorId": 3,
+      "recipientId": 3,
+      "topicIds": [
+        2,
+        3
+      ],
+      "letterContent": "test 5000",
+      "dateSent": "Thu May 19 2022",
+      "id": 5
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Business"
+    },
+    {
+      "id": 2,
+      "name": "Mud"
+    },
+    {
+      "id": 3,
+      "name": "Shrimp"
+    },
+    {
+      "id": 4,
+      "name": "Easter Sunday 2014"
+    },
+    {
+      "id": 5,
+      "name": "Grooming Tips"
+    }
+  ]
 }
